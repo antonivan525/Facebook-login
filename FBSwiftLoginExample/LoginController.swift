@@ -51,8 +51,8 @@ class LoginController: UIViewController, FBLoginViewDelegate {
     }
     
     func handleError(loginView: FBLoginView?, error: NSError) {
-        var alertTitle: NSString
-        var alertMessage: NSString
+        var alertTitle: NSString = ""
+        var alertMessage: NSString = ""
         
         // You need to override loginView:handleError in order to handle possible errors that can occur during login
         var error: NSError?
@@ -80,6 +80,11 @@ class LoginController: UIViewController, FBLoginViewDelegate {
             alertMessage = "Please try again later."
             NSLog("Unexpected error:%@", error!)
         }
+        
+        var alertView: UIAlertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: "OK")
+        
+        alertView.show()
+        
     }
     
 }
