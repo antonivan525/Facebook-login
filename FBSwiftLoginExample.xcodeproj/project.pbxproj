@@ -18,7 +18,7 @@
 		C474E4F4193E6B9F008CE66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C474E4F5193E6B9F008CE66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C474E511193E6C11008CE66D /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		C474E513193E6C2F008CE66D /* SwiftHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftHeader.h; sourceTree = "<group>"; };
+		C474E513193E6C2F008CE66D /* Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		C474E4F3193E6B9F008CE66D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C474E513193E6C2F008CE66D /* SwiftHeader.h */,
+				C474E513193E6C2F008CE66D /* Swift.h */,
 				C474E4F4193E6B9F008CE66D /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -242,7 +242,7 @@
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/SwiftHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -262,7 +262,7 @@
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/SwiftHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Swift.h";
 			};
 			name = Release;
 		};
