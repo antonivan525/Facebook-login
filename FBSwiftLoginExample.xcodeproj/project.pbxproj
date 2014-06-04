@@ -7,72 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C42B99FB193E931900242055 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42B99FA193E931900242055 /* FacebookSDK.framework */; };
-		C474E4F6193E6B9F008CE66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474E4F5193E6B9F008CE66D /* AppDelegate.swift */; };
-		C474E512193E6C11008CE66D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474E511193E6C11008CE66D /* LoginController.swift */; };
+		C4DC98BD193EDBD500002A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC98BC193EDBD500002A4C /* AppDelegate.swift */; };
+		C4DC98BF193EDBD500002A4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DC98BE193EDBD500002A4C /* Images.xcassets */; };
+		C4DC98E3193EDD9500002A4C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DC98E2193EDD9500002A4C /* FacebookSDK.framework */; };
+		C4DC98E9193EE0A000002A4C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC98E7193EE0A000002A4C /* LoginViewController.swift */; };
+		C4DC98EC193EE0D700002A4C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DC98EB193EE0D700002A4C /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C42B99FA193E931900242055 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
-		C474E4F0193E6B9F008CE66D /* FBSwiftLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSwiftLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C474E4F4193E6B9F008CE66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C474E4F5193E6B9F008CE66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C474E511193E6C11008CE66D /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		C474E513193E6C2F008CE66D /* Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift.h; sourceTree = "<group>"; };
+		C4DC98B7193EDBD500002A4C /* FBSwiftLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSwiftLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC98BB193EDBD500002A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DC98BC193EDBD500002A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4DC98BE193EDBD500002A4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4DC98DA193EDCE700002A4C /* Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift.h; sourceTree = "<group>"; };
+		C4DC98E2193EDD9500002A4C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
+		C4DC98E7193EE0A000002A4C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4DC98EB193EE0D700002A4C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C474E4ED193E6B9F008CE66D /* Frameworks */ = {
+		C4DC98B4193EDBD500002A4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42B99FB193E931900242055 /* FacebookSDK.framework in Frameworks */,
+				C4DC98E3193EDD9500002A4C /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C474E4E7193E6B9F008CE66D = {
+		C4DC98AE193EDBD500002A4C = {
 			isa = PBXGroup;
 			children = (
-				C474E4F2193E6B9F008CE66D /* FBSwiftLoginExample */,
-				C474E4F3193E6B9F008CE66D /* Supporting Files */,
-				C474E4F1193E6B9F008CE66D /* Products */,
-				C474E518193E6C5C008CE66D /* Frameworks */,
+				C4DC98B9193EDBD500002A4C /* FBSwiftLoginExample */,
+				C4DC98BA193EDBD500002A4C /* Supporting Files */,
+				C4DC98B8193EDBD500002A4C /* Products */,
+				C4DC98E4193EDDA100002A4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C474E4F1193E6B9F008CE66D /* Products */ = {
+		C4DC98B8193EDBD500002A4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C474E4F0193E6B9F008CE66D /* FBSwiftLoginExample.app */,
+				C4DC98B7193EDBD500002A4C /* FBSwiftLoginExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C474E4F2193E6B9F008CE66D /* FBSwiftLoginExample */ = {
+		C4DC98B9193EDBD500002A4C /* FBSwiftLoginExample */ = {
 			isa = PBXGroup;
 			children = (
-				C474E4F5193E6B9F008CE66D /* AppDelegate.swift */,
-				C474E511193E6C11008CE66D /* LoginController.swift */,
+				C4DC98BC193EDBD500002A4C /* AppDelegate.swift */,
+				C4DC98E7193EE0A000002A4C /* LoginViewController.swift */,
+				C4DC98EB193EE0D700002A4C /* LoginViewController.xib */,
 			);
 			path = FBSwiftLoginExample;
 			sourceTree = "<group>";
 		};
-		C474E4F3193E6B9F008CE66D /* Supporting Files */ = {
+		C4DC98BA193EDBD500002A4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C474E513193E6C2F008CE66D /* Swift.h */,
-				C474E4F4193E6B9F008CE66D /* Info.plist */,
+				C4DC98BE193EDBD500002A4C /* Images.xcassets */,
+				C4DC98BB193EDBD500002A4C /* Info.plist */,
+				C4DC98DA193EDCE700002A4C /* Swift.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C474E518193E6C5C008CE66D /* Frameworks */ = {
+		C4DC98E4193EDDA100002A4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C42B99FA193E931900242055 /* FacebookSDK.framework */,
+				C4DC98E2193EDD9500002A4C /* FacebookSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,13 +86,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C474E4EF193E6B9F008CE66D /* FBSwiftLoginExample */ = {
+		C4DC98B6193EDBD500002A4C /* FBSwiftLoginExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C474E507193E6B9F008CE66D /* Build configuration list for PBXNativeTarget "FBSwiftLoginExample" */;
+			buildConfigurationList = C4DC98CE193EDBD500002A4C /* Build configuration list for PBXNativeTarget "FBSwiftLoginExample" */;
 			buildPhases = (
-				C474E4EC193E6B9F008CE66D /* Sources */,
-				C474E4ED193E6B9F008CE66D /* Frameworks */,
-				C474E4EE193E6B9F008CE66D /* Resources */,
+				C4DC98B3193EDBD500002A4C /* Sources */,
+				C4DC98B4193EDBD500002A4C /* Frameworks */,
+				C4DC98B5193EDBD500002A4C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -94,63 +100,65 @@
 			);
 			name = FBSwiftLoginExample;
 			productName = FBSwiftLoginExample;
-			productReference = C474E4F0193E6B9F008CE66D /* FBSwiftLoginExample.app */;
+			productReference = C4DC98B7193EDBD500002A4C /* FBSwiftLoginExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C474E4E8193E6B9F008CE66D /* Project object */ = {
+		C4DC98AF193EDBD500002A4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
-					C474E4EF193E6B9F008CE66D = {
+					C4DC98B6193EDBD500002A4C = {
 						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
-			buildConfigurationList = C474E4EB193E6B9F008CE66D /* Build configuration list for PBXProject "FBSwiftLoginExample" */;
+			buildConfigurationList = C4DC98B2193EDBD500002A4C /* Build configuration list for PBXProject "FBSwiftLoginExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C474E4E7193E6B9F008CE66D;
-			productRefGroup = C474E4F1193E6B9F008CE66D /* Products */;
+			mainGroup = C4DC98AE193EDBD500002A4C;
+			productRefGroup = C4DC98B8193EDBD500002A4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C474E4EF193E6B9F008CE66D /* FBSwiftLoginExample */,
+				C4DC98B6193EDBD500002A4C /* FBSwiftLoginExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C474E4EE193E6B9F008CE66D /* Resources */ = {
+		C4DC98B5193EDBD500002A4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DC98EC193EE0D700002A4C /* LoginViewController.xib in Resources */,
+				C4DC98BF193EDBD500002A4C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C474E4EC193E6B9F008CE66D /* Sources */ = {
+		C4DC98B3193EDBD500002A4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C474E4F6193E6B9F008CE66D /* AppDelegate.swift in Sources */,
-				C474E512193E6C11008CE66D /* LoginController.swift in Sources */,
+				C4DC98E9193EE0A000002A4C /* LoginViewController.swift in Sources */,
+				C4DC98BD193EDBD500002A4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C474E505193E6B9F008CE66D /* Debug */ = {
+		C4DC98CC193EDBD500002A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		C474E506193E6B9F008CE66D /* Release */ = {
+		C4DC98CD193EDBD500002A4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,36 +235,31 @@
 			};
 			name = Release;
 		};
-		C474E508193E6B9F008CE66D /* Debug */ = {
+		C4DC98CF193EDBD500002A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C474E509193E6B9F008CE66D /* Release */ = {
+		C4DC98D0193EDBD500002A4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
@@ -269,25 +272,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C474E4EB193E6B9F008CE66D /* Build configuration list for PBXProject "FBSwiftLoginExample" */ = {
+		C4DC98B2193EDBD500002A4C /* Build configuration list for PBXProject "FBSwiftLoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C474E505193E6B9F008CE66D /* Debug */,
-				C474E506193E6B9F008CE66D /* Release */,
+				C4DC98CC193EDBD500002A4C /* Debug */,
+				C4DC98CD193EDBD500002A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C474E507193E6B9F008CE66D /* Build configuration list for PBXNativeTarget "FBSwiftLoginExample" */ = {
+		C4DC98CE193EDBD500002A4C /* Build configuration list for PBXNativeTarget "FBSwiftLoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C474E508193E6B9F008CE66D /* Debug */,
-				C474E509193E6B9F008CE66D /* Release */,
+				C4DC98CF193EDBD500002A4C /* Debug */,
+				C4DC98D0193EDBD500002A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C474E4E8193E6B9F008CE66D /* Project object */;
+	rootObject = C4DC98AF193EDBD500002A4C /* Project object */;
 }

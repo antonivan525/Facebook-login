@@ -1,28 +1,13 @@
 import UIKit
 
-class LoginController: UIViewController, FBLoginViewDelegate {
+class LoginViewController: UIViewController, FBLoginViewDelegate {
+
+    @IBOutlet var profilePictureView: FBProfilePictureView?
+    @IBOutlet var nameLabel: UILabel?
+    @IBOutlet var statusLabel: UILabel?
     
-    var profilePictureView: FBProfilePictureView?
-    var nameLabel: UILabel?
-    var statusLabel: UILabel?
-    
-    override func viewDidLoad() {
-        profilePictureView = FBProfilePictureView();
-        profilePictureView!.frame = CGRectMake(86, 158, 50, 50)
-        
-        var font: UIFont = UIFont(name: "HelveticaNeue", size: 15.0)
-        
-        nameLabel = UILabel();
-        nameLabel!.frame = CGRectMake(144, 158, 156, 21)
-        nameLabel!.font = font
-        statusLabel = UILabel();
-        statusLabel!.frame = CGRectMake(86, 129, 145, 21)
-        statusLabel!.font = font
-        
-        self.view.addSubview(profilePictureView)
-        self.view.addSubview(nameLabel)
-        self.view.addSubview(statusLabel)
-        
+    init() {
+        super.init(nibName: "LoginViewController", bundle: NSBundle.mainBundle())
         
         var permissions: AnyObject[] = ["public_profile", "email", "user_friends"];
         var loginView:FBLoginView = FBLoginView(readPermissions: permissions)
@@ -33,7 +18,7 @@ class LoginController: UIViewController, FBLoginViewDelegate {
         
         self.view.addSubview(loginView)
     }
-    
+
     func loginViewFetchedUserInfo(loginView: FBLoginView?, user: AnyObject){
         var userObj: NSDictionary = user as NSDictionary
         profilePictureView!.profileID = userObj["id"] as String
@@ -50,12 +35,11 @@ class LoginController: UIViewController, FBLoginViewDelegate {
         statusLabel!.text = "You're not logged in!"
     }
     
-    func handleError(loginView: FBLoginView?, error: NSError) {
-        var alertTitle: NSString = ""
-        var alertMessage: NSString = ""
-        
+    func handleError(loginView: FBLoginView?, error: NSError?) {
+        var alertTitle: NSString?
+        var alertMessage: NSString?
         // You need to override loginView:handleError in order to handle possible errors that can occur during login
-        var error: NSError?
+        
         if (FBErrorUtility.shouldNotifyUserForError(error)) {
             alertTitle = "Facebook error"
             alertMessage = FBErrorUtility.userMessageForError(error)
@@ -86,5 +70,5 @@ class LoginController: UIViewController, FBLoginViewDelegate {
         alertView.show()
         
     }
-    
+
 }

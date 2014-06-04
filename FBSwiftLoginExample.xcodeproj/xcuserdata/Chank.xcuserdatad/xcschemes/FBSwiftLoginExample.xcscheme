@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C474E4EF193E6B9F008CE66D"
+               BlueprintIdentifier = "C4DC98B6193EDBD500002A4C"
                BuildableName = "FBSwiftLoginExample.app"
                BlueprintName = "FBSwiftLoginExample"
                ReferencedContainer = "container:FBSwiftLoginExample.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C474E4FC193E6B9F008CE66D"
+               BlueprintIdentifier = "C4DC98C3193EDBD500002A4C"
                BuildableName = "FBSwiftLoginExampleTests.xctest"
                BlueprintName = "FBSwiftLoginExampleTests"
                ReferencedContainer = "container:FBSwiftLoginExample.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C474E4EF193E6B9F008CE66D"
+            BlueprintIdentifier = "C4DC98B6193EDBD500002A4C"
             BuildableName = "FBSwiftLoginExample.app"
             BlueprintName = "FBSwiftLoginExample"
             ReferencedContainer = "container:FBSwiftLoginExample.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C474E4EF193E6B9F008CE66D"
+            BlueprintIdentifier = "C4DC98B6193EDBD500002A4C"
             BuildableName = "FBSwiftLoginExample.app"
             BlueprintName = "FBSwiftLoginExample"
             ReferencedContainer = "container:FBSwiftLoginExample.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C474E4EF193E6B9F008CE66D"
+            BlueprintIdentifier = "C4DC98B6193EDBD500002A4C"
             BuildableName = "FBSwiftLoginExample.app"
             BlueprintName = "FBSwiftLoginExample"
             ReferencedContainer = "container:FBSwiftLoginExample.xcodeproj">
