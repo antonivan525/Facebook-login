@@ -65,9 +65,11 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
             NSLog("Unexpected error:%@", error!)
         }
         
-        var alertView: UIAlertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: "OK")
+        if alertMessage {
+            var alertView: UIAlertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: "OK")
         
-        alertView.show()
+            alertView.show()
+        }
         
     }
 
