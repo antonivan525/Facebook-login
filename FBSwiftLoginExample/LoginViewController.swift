@@ -1,7 +1,9 @@
 import UIKit
 
+
 class LoginViewController: UIViewController, FBLoginViewDelegate {
 
+    
     @IBOutlet var profilePictureView: FBProfilePictureView?
     @IBOutlet var nameLabel: UILabel?
     @IBOutlet var statusLabel: UILabel?
